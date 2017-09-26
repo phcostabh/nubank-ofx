@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://conta.nubank.com.br/*"],
-      "js": ["index.js"]
+      "js": ["dist/extrato-nubank.js"]
     }
   ]
 }
